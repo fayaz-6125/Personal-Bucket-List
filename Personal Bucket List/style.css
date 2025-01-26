@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Verdana', sans-serif;
+    background: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Header Styling */
+  header {
+    background: linear-gradient(135deg, #6dd5fa, #2980b9);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+  
+  /* Bucket List Sections */
+  main {
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .bucket-section {
+    margin-bottom: 20px;
+  }
+  
+  .bucket-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6dd5fa;
+    padding-bottom: 5px;
+    color: #2980b9;
+  }
+  
+  .bucket-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bucket-list li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bucket-list li span {
+    font-size: 1.1rem;
+  }
+  
+  .mark-complete {
+    background: #6dd5fa;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .mark-complete:hover {
+    background: #2980b9;
+  }
+  
+  .completed-section li {
+    background: #d4edda;
+    color: #155724;
+  }
+  
+  .icon-completed {
+    font-size: 1.5rem;
+    color: #28a745;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #2980b9;
+    color: white;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  
